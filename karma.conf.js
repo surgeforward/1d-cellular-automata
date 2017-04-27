@@ -1,7 +1,7 @@
 // Karma configuration
 // Generated on Wed Apr 26 2017 19:50:33 GMT-0500 (CDT)
 
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
@@ -10,25 +10,25 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-      frameworks: ['mocha', 'chai'],
+    frameworks: ['mocha', 'chai'],
 
 
     // list of files / patterns to load in the browser
     files: [
       'src/**/*,js',
-      'test/**/*.js'
+      'test/**/*.js',
     ],
 
 
     // list of files to exclude
     exclude: [
+      '**/.#*',
     ],
 
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-    preprocessors: {
-    },
+    preprocessors: {},
 
 
     // test results reporter to use
@@ -65,6 +65,6 @@ module.exports = function(config) {
 
     // Concurrency level
     // how many browser should be started simultaneous
-    concurrency: Infinity
-  })
-}
+    concurrency: Infinity,
+  });
+};
