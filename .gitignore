@@ -15,7 +15,8 @@ $RECYCLE.BIN/
 *.sln.docstates
 [Pp]ackages/
 .sass-cache/
-node_modules
+node_modules/
+.vscode/
 
 # Binaries
 [Bb]in/
