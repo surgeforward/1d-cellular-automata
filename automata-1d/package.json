@@ -1,0 +1,29 @@
+{
+  "name": "automata-1d",
+  "version": "0.0.0",
+  "description": "basic one dimensional automata done by surgeons during a code dojo meeting",
+  "main": "app.js",
+  "scripts": {
+    "test": "karma start --single-run",
+    "eslint": "eslint",
+    "karma": "karma"
+  },
+  "keywords": [
+    "dojo",
+    "cellular-automata",
+    "kata"
+  ],
+  "author": "Surge Devs",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-chai-friendly": "^0.3.6",
+    "eslint-plugin-mocha": "^4.9.0",
+    "karma": "^1.6.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-mocha": "^1.3.0",
+    "mocha": "^3.3.0"
+  }
+}
