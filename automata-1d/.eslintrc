@@ -30,7 +30,6 @@
       "chai": true
     },
     "plugins": [
-      "mocha",
-      "chai-friendly"
+      "mocha"
     ]
 }
